@@ -12,5 +12,26 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
+## 🧪 Running tests
+
+1. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run pytest:
+
+   ```bash
+   pytest -q
+   ```
+
+3. Optional coverage report:
+
+   ```bash
+   pytest --cov=src --cov-report=term-missing -q
+   ```
+
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
